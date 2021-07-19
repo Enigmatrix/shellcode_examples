@@ -1,2 +1,2 @@
 main:
-	gcc main.c -fno-stack-protector -z execstack -o superez
+	gcc main.c -o superez
